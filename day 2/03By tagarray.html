@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> By tag and array </title>
+</head>
+<body>
+      <center>
+        <h1>
+            By tag and array
+        </h1>
+      </center>
+      <center>
+        <p>
+            Today we are going to see how to change a line 
+            <br>
+            with just pressing this "change" button 
+        </p>
+      </center>
+      <center><h3>Click "Change" to change the text of this pragraph.</h3>
+      <button onclick="myFunction()">Change</button></center>
+      
+      <script>
+      function myFunction() {
+        const list = document.getElementsByTagName("h3")[0].innerHTML = " dekh kya raha hai be 😝😝";
+      }
+      </script>
+      
+</body>
+</html>
